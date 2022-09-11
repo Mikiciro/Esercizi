@@ -3,7 +3,7 @@
   margin: 0;
 
 }
-.rettangolo{
+.container{
   background-color: rgba(60,60,60,0.7);
   border-radius: 20px;
   padding: 2em;
