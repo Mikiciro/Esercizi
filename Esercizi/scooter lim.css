@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  
+
 }
 .rettangolo{
   background-color: rgba(60,60,60,0.7);
@@ -57,6 +57,9 @@ span, p{
 
 }
 
+.nome-monopattino{
+  font-size: 30px;
+}
 
 .carica-Gino22{
   background: rgb(255, 165, 0);
