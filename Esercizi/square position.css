@@ -1,0 +1,41 @@
+#container{
+    background-color: aquamarine;
+    height: 900px;
+    width: 1500px;
+}
+
+#scatola1, #scatola2{
+    background-color: blue;
+    height: 450px;
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+.square1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.square2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 400px;
+    top: 350px;
+}
+
+.square3{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.square4{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 25px;
+}
