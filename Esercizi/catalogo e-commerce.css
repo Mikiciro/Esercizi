@@ -1,0 +1,47 @@
+body{
+    background-color: lightgrey;
+}
+
+#container{
+ width: 1000px;
+ margin: auto;
+ background-color: white;
+ text-align: center;
+}
+
+.row .item{
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.item > .discount{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px; /*serve per far stare al centro del quadrato lo sconto. specifica l'altezza della riga */
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.discount.red{
+  background-color: red;
+}
+
+.discount.green{
+  background-color: green;
+}
+
+.heart{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 25px;
+  color: red;
+  display: none;
+}
+.item:hover .heart{
+  display: block;
+
+}
